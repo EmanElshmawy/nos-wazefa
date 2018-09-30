@@ -1,0 +1,41 @@
+.md-checkbox{
+  .md-checkbox-container{
+    border: 1px solid rgba(0, 0, 0, .54);
+    border-radius: 3px;
+
+    .md-ripple{
+      overflow: hidden;
+    }
+  }
+
+  &.md-checked .md-checkbox-container{
+    &:after{
+      border-color: $brand-primary !important;
+      top: 1px;
+      left: 6px;
+    }
+  }
+
+  &.md-disabled .md-checkbox-label{
+    opacity: .26;
+  }
+
+  &.md-checked.md-disabled .md-checkbox-container{
+    background-color: transparent !important;
+    border-color: rgba(0, 0, 0, .54) !important;
+    opacity: .26;
+  }
+}
+.md-radio.md-theme-default.md-checked .md-radio-container:after{
+  background-color: #209e91;
+}
+.md-radio.md-theme-default.md-checked .md-radio-container{
+  border-color: #209e91;
+  
+}
+.md-radio {
+  width: auto;
+  margin: 30px 16px 0px 0;
+  display: inline-flex;
+  position: relative;
+}

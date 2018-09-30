@@ -1,0 +1,35 @@
+body{
+    background-color: #eee;
+}
+.login{
+    background-color: #364150 !important; 
+    width: 100%;
+    height: 100vh;
+}
+.md-card-header{
+    margin: 2rem 1rem 1rem !important;
+    text-align: left;
+   }
+
+   .md-ripple > span {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 4rem;
+    top: 1rem;
+    z-index: -1;
+}
+
+.md-list.md-theme-default .md-selected .md-list-item-content, .md-list.md-theme-default .router-link-exact-active .md-list-item-content {
+
+    color: #209e91;}
+
+
+    .right{
+        float:right;
+    }
+
+    .v-btn{
+        height: 3rem;
+    }
